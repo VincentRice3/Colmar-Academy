@@ -4,11 +4,9 @@ html, body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin:0;
     padding:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .header{
@@ -27,20 +25,24 @@ html, body{
 
 .learn{
     background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.learnContainer{
     display: flex;
     align-items: center;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 24px;
 }
 
-.banner .practiceImage{
+.banner {
     width:60%;
     margin-right: 24px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 24px;
 
 }
 
@@ -48,6 +50,8 @@ html, body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 24px;
+
 }
 
 .startButton{
@@ -57,3 +61,198 @@ html, body{
     padding: 16px
 }
 
+.practiceContainer{
+    display: flex;
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.practice{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    width:60%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.practice h2{
+    margin-bottom: 24px;
+}
+
+.practiceImage{
+    margin-bottom: 32px;
+}
+
+.practiceContent{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.contentContainer{
+    border-bottom: solid lightgray 1px;
+    border-top: solid lightgray 1px;
+    margin-left: 24px;
+    
+}
+
+.contentContainer:hover{
+    background-color: lightgray;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.imgContainer{
+    width:35%;
+    padding-right: 16px;
+    height: auto;
+
+}
+
+.contentImg{
+    width: 100%;
+}
+
+.contentInfo{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+.learning{
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.learning h3{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.subjects{
+    display: flex;
+    flex-direction: row;
+    padding-left: 72px;
+    padding-right: 72px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.subjectContainer{
+    margin-right: 32px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.subjectContainer:hover{
+    background-color: lightslategray;
+}
+.courseImg{
+    height: auto;
+    width: 100%;
+}
+
+.courseInfo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+.thesis{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding:32px;
+    border-bottom: solid lightgray 1px;
+}
+
+.thesisContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.thesisLeftContainer{
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+video{
+    width: 100%;
+}
+
+.thesisRightContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.tContentContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tContentContainer:hover{
+    background-color: lightgray;
+}
+
+.imgContainer{
+    margin: 16px;
+    width: 35%;
+    height: auto;
+}
+
+.thesisImg{
+    width: 100%;
+}
+
+.tInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    text-align: left;
+    padding-left: 24px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.termsPrivacy{
+    display: flex;
+    margin-left: auto;
+    padding-right: 24px;
+    flex-direction: row;
+}
+
+.termsPrivacy p{
+    padding-right: 10px;
+}
