@@ -20,6 +20,9 @@ html, body{
     display: none;
 }
 
+.mobilePracticeContainer{
+    display: none;
+}
 
 .header p{
     padding: 16px;
@@ -97,6 +100,10 @@ html, body{
     margin-top: 32px;
     margin-bottom: 32px;
 
+}
+
+.mobileLearning{
+    display: none;
 }
 
 .contentContainer{
@@ -182,6 +189,10 @@ html, body{
     flex-direction: column;
     padding-left: 16px;
     padding-bottom: 24px;
+}
+
+.mobileThesis{
+    display: none;
 }
 
 .thesis{
@@ -272,6 +283,16 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
+        height: 64px;
+    }
+    
+    .mobileHeader p{
+        padding: 4px;
+    }
+    .mobileHeader p:hover{
+        background-color: lightgray;
+        transition-duration: 750ms;
     }
 
 
@@ -283,6 +304,7 @@ footer{
         padding-top: 0px;
         padding-bottom: 0px;
         margin-left: 0px;
+        padding-bottom: 32px;
     }
 
     .banner {
@@ -302,7 +324,78 @@ footer{
         color: white;
         background-color: gray;
         width: 80%;
-        padding: 16px
+        padding: 16px;
+
+    }
+
+    .startButton:hover{
+        background-color: lightslategray;
+        transition-duration: 750ms;
+    }
+
+    .mobilePracticeContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 100%;
+        padding-bottom: 32px;
+        padding-top: 16px;
+        border-bottom: solid lightgray 1px;
+        margin-top: 16px;
+
+    }
+
+    .mobileContent{
+        margin-bottom: 64px;
+        padding: 16px 16px;
+
+    }
+
+    .mobileContent:hover{
+        background-color: lightgray;
+        transition-duration: 750ms;
+    }
+
+    .contentInfo{
+        margin: 0px 16px;
+    }
+
+    .mobileImgContainer{
+        width: auto;
+    }
+    
+    .mobileContentImg{
+        width: 100%;
+    }
+    .mobileLearningContainer{
+        width:auto;
+        border-bottom: solid lightgray 1px;
+
+    }
+
+    .mobileLearning{
+        text-align: center;
+        margin: 16px;
+        display:block;
+        padding-bottom: 32px;
+
+    }
+
+    .course{
+        display: flex;
+        background-color: lightgray;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        margin-bottom: 8px;
+        padding-left: 16px;
+        font-weight: 500;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .courses :hover{
+        background-color: lightslategray;
+        transition-duration: 750ms;
     }
 
     .practice{
@@ -315,6 +408,32 @@ footer{
 
     .learning{
         display: none;
+    }
+
+    .thesis{
+        display: none;
+    }
+
+    .termsPrivacy{
+        display: none;
+    }
+
+    footer{
+        font-size: 0.8rem;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .mobileThesis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+
+    .thesisHeader{
+        margin-bottom: 16px;
     }
 
 }
