@@ -16,6 +16,11 @@ html, body{
 
 }
 
+.mobileHeader{
+    display: none;
+}
+
+
 .header p{
     padding: 16px;
     font-size: 20x;
@@ -255,4 +260,61 @@ footer{
 
 .termsPrivacy p{
     padding-right: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .header{
+        display: none;
+    }
+    
+    .mobileHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    .learnContainer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .banner {
+        width:100%;
+        margin-right: 0px;
+
+    }
+    
+    .learnContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+    
+    .startButton{
+        color: white;
+        background-color: gray;
+        width: 80%;
+        padding: 16px
+    }
+
+    .practice{
+        display: none;
+    }
+
+    .practiceContent{
+        display: none;
+    }
+
+    .learning{
+        display: none;
+    }
+
 }
